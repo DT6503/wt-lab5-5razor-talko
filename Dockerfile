@@ -1,22 +1,20 @@
-# ===== Этап 1: сборка =====
+# ===== ЭТАП 1: СБОРКА =====
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
-# Копируем только csproj, чтобы кэшировать restore
-COPY *.csproj ./
-RUN dotnet restore
+COPY ["wt-lab5-5razor-talko.csproj", "./"]
+RUN dotnet restore "wt-lab5-5razor-talko.csproj"
 
-# Копируем всё остальное и публикуем
-COPY . ./
-RUN dotnet publish -c Release -o /app/publish
+COPY . .
+RUN dotnet publish "wt-lab5-5razor-talko.csproj" -c Release -o /app/publish /p:UseAppHost=false
 
-# ===== Этап 2: запуск =====
-FROM mcr.microsoft.com/dotnet/aspnet:8.0
+# ===== ЭТАП 2: ЗАПУСК =====
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS final
 WORKDIR /app
+
 COPY --from=build /app/publish ./
 
-# Render передаёт порт через переменную PORT
 ENV ASPNETCORE_URLS=http://0.0.0.0:${PORT:-10000}
 EXPOSE 10000
 
-ENTRYPOINT ["dotnet", "wt-lab4-4mvc-talko.dll"]
+ENTRYPOINT ["dotnet", "wt-lab5-5razor-talko.dll"]
