@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("wt-lab5-5razor-talko")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dc129cc0ed2f5775e3978074454ac9dfb877aa5e")]
 [assembly: System.Reflection.AssemblyProductAttribute("wt-lab5-5razor-talko")]
 [assembly: System.Reflection.AssemblyTitleAttribute("wt-lab5-5razor-talko")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
