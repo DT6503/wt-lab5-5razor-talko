@@ -1,0 +1,26 @@
+﻿@page
+@model wt_lab5_5razor_talko.Pages.Restaurants.IndexModel
+@{
+    ViewData["Title"] = "Рестораны";
+}
+
+<div class="container py-4">
+    <h1 class="fw-bold mb-4">Рестораны-партнёры</h1>
+
+    <div class="row g-4">
+        @foreach (var rest in Model.Restaurants)
+        {
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card h-100 shadow-sm rounded-4">
+                    <img src="@rest.ImageUrl" class="card-img-top rounded-top-4" style="height:200px;object-fit:cover;" alt="@rest.Title" />
+                    <div class="card-body">
+                        <span class="badge bg-warning text-dark mb-2">Рейтинг: @rest.Rating ★</span>
+                        <h5 class="card-title">@rest.Title</h5>
+                        <p class="text-muted">@rest.Address</p>
+                        <p class="fw-bold">Тел: @rest.Phone</p>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

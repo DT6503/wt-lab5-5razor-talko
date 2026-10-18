@@ -1,0 +1,73 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = wt_lab5_5razor_talko
+build_property.RootNamespace = wt_lab5_5razor_talko
+build_property.ProjectDir = D:\7semester\WT\lab4\wt-lab5-5razor-talko\wt-lab5-5razor-talko\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\7semester\WT\lab4\wt-lab5-5razor-talko\wt-lab5-5razor-talko
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[D:/7semester/WT/lab4/wt-lab5-5razor-talko/wt-lab5-5razor-talko/Pages/Couriers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291cmllcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/7semester/WT/lab4/wt-lab5-5razor-talko/wt-lab5-5razor-talko/Pages/Dishes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlzaGVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/7semester/WT/lab4/wt-lab5-5razor-talko/wt-lab5-5razor-talko/Pages/Dishes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlzaGVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/7semester/WT/lab4/wt-lab5-5razor-talko/wt-lab5-5razor-talko/Pages/Dishes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlzaGVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/7semester/WT/lab4/wt-lab5-5razor-talko/wt-lab5-5razor-talko/Pages/Dishes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlzaGVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/7semester/WT/lab4/wt-lab5-5razor-talko/wt-lab5-5razor-talko/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/7semester/WT/lab4/wt-lab5-5razor-talko/wt-lab5-5razor-talko/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/7semester/WT/lab4/wt-lab5-5razor-talko/wt-lab5-5razor-talko/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/7semester/WT/lab4/wt-lab5-5razor-talko/wt-lab5-5razor-talko/Pages/Restaurants/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVzdGF1cmFudHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/7semester/WT/lab4/wt-lab5-5razor-talko/wt-lab5-5razor-talko/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/7semester/WT/lab4/wt-lab5-5razor-talko/wt-lab5-5razor-talko/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/7semester/WT/lab4/wt-lab5-5razor-talko/wt-lab5-5razor-talko/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/7semester/WT/lab4/wt-lab5-5razor-talko/wt-lab5-5razor-talko/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ozksvwkly4
